@@ -1,0 +1,70 @@
+@import "tailwindcss";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  font-family: "Lucida Console", Monaco, monospace;
+  color: #222;
+}
+
+.page {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.container {
+  background: white;
+  padding: 50px 35px;
+  border-radius: 20px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.12);
+  max-width: 500px;
+  width: 100%;
+}
+
+.icon {
+  font-size: 64px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 2.4rem;
+  margin-bottom: 15px;
+}
+
+p {
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 25px;
+}
+
+.gifWrapper {
+  width: 100%;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.gif {
+  display: block;
+  margin: 0 auto;
+  width: 90%;
+  max-width: 350px;
+  height: auto;
+  border-radius: 12px;
+}
+
+.footer {
+  margin-top: 25px;
+  font-size: 0.9rem;
+  color: #888;
+}
